@@ -24,13 +24,7 @@
     "sriram rudraraju"
   ],
   "license": "MIT",
-  "ignore": [
-    "/.*",
-    ".tmp",
-    "node_modules",
-    "bower_components",
-    "test"
-  ],
+
   "appPath": "app",
   "moduleName": "bowerPackageApp",
   "overrides": {
