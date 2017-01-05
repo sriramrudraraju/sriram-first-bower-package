@@ -1,7 +1,7 @@
 {
   "name": "sriram-first-bower-package",
   "description": "testing how to create bower package",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": [
     "app/scripts/app.js"
   ],
@@ -24,7 +24,18 @@
     "sriram rudraraju"
   ],
   "license": "MIT",
-
+  "ignore": [
+    ".bowerrc",
+    ".editorconfig",
+    ".gitattributes",
+    ".editorconfig",
+    ".gitignore",
+    ".jscsrc",
+    ".jshintrc",
+    ".yo-rc.json",
+    "Gruntfile.js",
+    "package.json",
+  ],
   "appPath": "app",
   "moduleName": "bowerPackageApp",
   "overrides": {
